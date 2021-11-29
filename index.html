@@ -6,10 +6,163 @@
     <meta name="description" content="Julia Lundstrum's Personal Website" />
     <meta name="author" content="Julia Lundstrum" />
     <meta name="datePublished" content = "November 25th, 2021" />
+    <title>Julia Lundstrum</title>
     <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
-      <p>This is not a website yet :)</p>
-      <script src="js/scripts.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Julia Lundstrum</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+              <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#academics">Academics</a></li>
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#research">Research</a></li>
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#data">Data</a></li>
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#employment">Experience</a></li>
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hobbies">Hobbies</a></li>-->
+          </ul>
+      </div>
+    </nav>
+    <div class="container-fluid p-0">
+        <section class="sect" id="about">
+            <div class="sect-content">
+                <h1 class="mb-3 mt-5 text-primary">Julia Lundstrum</h1>
+                <p class="mb-4">I am a data scientist interested in computational social science and interdisciplinary research. My primary focus is using advanced data science techniques to explore social influences on individual political behavior. I am currently an undergrad student at Iowa State University pursuing a dual degree in Data Science and Mathematics with a minor in Computer Science.</p>
+                <a href = "https://github.com/JL496" target="_blank">
+                  <img src = "Pictures/GitHub-Mark.png" class = "biologo">
+                </a>
+                <!--<a href = "https://www.linkedin.com/in/julialundstrum/" target="_blank">
+                  <img src = "Pictures/linkedin.png">
+                </a>-->
+                <a href = "mailto:julialundstrum@gmail.com" target="_blank">
+                  <img src = "Pictures/envelope.png" class = "biologo">
+                </a>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!--<section class="sect" id="academics">
+            <div class="sect-content">
+                <h2 class="mb-2 text-primary">Academics</h2>
+                <h3 class = "text-secondary">Relevant Coursework</h3>
+                <p class="mb-0"><span class = "text-black fw-bold">Com S 227: </span>Object-Oriented Programming</p>
+                <p class="mb-0 text-green">Fall 2019</p>
+                <p>Computer programming using objects as the mechanism for modularity, abstraction, and code reuse. Instance variables, methods, and encapsulation. Review of control structures for conditionals and iteration. Developing algorithms on strings, arrays, and lists. Recursion, searching, and sorting. Text parsing and file I/O. Interfaces, inheritance, polymorphism, and abstract classes. Exception handling. Tools for unit testing and debugging.</p>
+                <p class="mb-0"><span class = "text-black fw-bold">Com S 228: </span>Introduction to Data Structures</p>
+                <p class="mb-0 text-green">Spring 2020</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Com S 311: </span>Introduction to the Design and Analysis of Algorithms</p>
+                <p class="mb-0 text-green">Spring 2020</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Com S 321: </span>Introduction to Computer Architecture and Machine-Level Programming</p>
+                <p class="mb-0 text-green">Fall 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Com S 327: </span>Advanced Programming Techniques</p>
+                <p class="mb-0 text-green">Fall 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Com S 363: </span>Introduction to Database Management Systems</p>
+                <p class="mb-0 text-green">Fall 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Cpr E 419: </span>Software Tools for Large Scale Data Analysis</p>
+                <p class="mb-0 text-green">Spring 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">DS 201: </span>Introduction to Data Science</p>
+                <p class="mb-0 text-green">Fall 2020</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">DS 202: </span>Data Acquisition and Exploratory Data Analysis</p>
+                <p class="mb-0 text-green">Spring 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">DS 303: </span>Concepts and Applications of Machine Learning</p>
+                <p class="mb-0 text-green">Fall 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Engl 250H: </span>Honors Written, Oral, Visual, and Electronic Composition</p>
+                <p class="mb-0 text-green">Fall 2019</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Engl 314: </span>Technical Communication</p>
+                <p class="mb-0 text-green">Spring 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Ent 211: </span>Insects and Society</p>
+                <p class="mb-0 text-green">Fall 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Hon 290H: </span>Undergraduate Research</p>
+                <p class="mb-0 text-green">Spring 2020</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Math 201: </span>Introduction to Proofs</p>
+                <p class="mb-0 text-green">Spring 2020</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Math 265: </span>Calculus III</p>
+                <p class="mb-0 text-green">Spring 2020</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Math 267: </span>Elementary Differential Equations and Laplace Transforms</p>
+                <p class="mb-0 text-green">Fall 2020</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Math 314: </span>Graph Theory</p>
+                <p class="mb-0 text-green">Spring 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Math 317: </span>Theory of Linear Algebra</p>
+                <p class="mb-0 text-green">Spring 2020</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Math 424: </span>Introduction to High-Performance Computing</p>
+                <p class="mb-0 text-green">Fall 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Math 492: </span>Undergraduate Seminar</p>
+                <p class="mb-0 text-green">Fall 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Math 495: </span>Special Topics: Mathematics in Politics</p>
+                <p class="mb-0 text-green">Spring 2021</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Stat 301: </span>Intermediate Statistical Concepts and Methods</p>
+                <p class="mb-0 text-green">Fall 2020</p>
+                <p></p>
+                <p class="mb-0"><span class = "text-black fw-bold">Stat 341: </span>Introduction to the Theory of Probability and Statistics</p>
+                <p class="mb-0 text-green">Spring 2021</p>
+                <p></p>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <section class="sect" id="research">
+            <div class="sect-content">
+                <h2 class="mb-2 text-primary">Research Experience</h2>
+
+            </div>
+        </section>
+        <hr class="m-0" />
+        <section class="sect" id="data">
+            <div class="sect-content">
+                <h2 class="mb-2 text-primary">Data</h2>
+
+            </div>
+        </section>
+        <hr class="m-0" />
+        <section class="sect" id="employment">
+            <div class="sect-content">
+                <h2 class="mb-2 text-primary">Other Work Experience</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                  <div class="flex-grow-1">
+                    <h3 class="mb-0">Computer Support Technician</h3>
+                      <div class="subheading mb-3">Iowa State University Department of Music and Theatre</div>
+                  </div>
+                  <div class="flex-shrink-0"><span class="text-primary">September 2019 - Present</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <section class="sect" id="hobbies">
+            <div class="sect-content">
+                <h2 class="mb-2 text-primary">Hobbies</h2>
+                <h4 class = "text-secondary">Theatre</h4>
+                <h4 class = "text-secondary">Politics</h4>
+                <h4 class = "text-secondary">Video Games</h4>
+                <h4 class = "text-secondary">Board Games</h4>
+                <h4 class = "text-secondary">Puzzles</h4>
+            </div>
+        </section>-->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
