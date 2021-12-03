@@ -42,7 +42,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #43484d;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -6671,7 +6671,7 @@ textarea.form-control-lg {
 }
 
 .text-body {
-  color: #212529 !important;
+  color: #43484d !important;
 }
 
 .text-black-50 {
@@ -10113,7 +10113,7 @@ textarea.form-control-lg {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: #43484d;
 }
 
 @media (min-width: 992px) {
@@ -10272,4 +10272,41 @@ section.sect .sect-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.collapsible {
+background-color: #01579b;
+outline-color: #01579b;
+color: white;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+}
+
+.collapsible:hover {
+background-color: #0091ea;
+}
+
+.collapsible:after {
+content: '\002B';
+color: white;
+font-weight: bold;
+float: ight;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2212";
+}
+
+.content {
+padding: 0 18px;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+outline-color: #f1f1f1;
 }
