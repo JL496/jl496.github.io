@@ -631,6 +631,12 @@ progress {
   height: auto;
 }
 
+.img-fluid-main {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
