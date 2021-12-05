@@ -13,7 +13,8 @@
 :root {
   --navy: #003A70;
   --lblue: #40B4E5;
-  --dblue: #152e94;
+  --blue: #3e7cf8;
+  --dblue: #0529c8;
   --green: #22611e;
   --red: #CF0A2C;
   --lgrey: #8A8A8D;
@@ -6639,7 +6640,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #152e94 !important;
+  color: #0529c8 !important;
 }
 
 .text-green {
@@ -6687,7 +6688,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #152e94 !important;
+  background-color: #0529c8 !important;
 }
 
 .bg-green {
@@ -10275,7 +10276,7 @@ section.sect .sect-content {
 }
 
 .collapsible {
-background-color: #01579b;
+background-color: #0529c8;
 outline-color: #01579b;
 color: white;
 cursor: pointer;
